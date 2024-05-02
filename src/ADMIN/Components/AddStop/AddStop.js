@@ -139,19 +139,27 @@ function AddStop({ id }) {
       }));
     }
   };
+
   // edit stop
   const editStop = async () => {
     const formData = new FormData();
-    formData.append("stop_number", editStopInput.stop_number);
-    formData.append("image", editStopInput.image);
-    formData.append("place", editStopInput.place);
-    formData.append("link", editStopInput.link);
-
+  
+    if (typeof editStopInput.image === 'string') {
+      formData.append("stop_number", editStopInput.stop_number);
+      formData.append("place", editStopInput.place);
+      formData.append("link", editStopInput.link);
+    } else {
+      formData.append("stop_number", editStopInput.stop_number);
+      formData.append("image", editStopInput.image)
+      formData.append("place", editStopInput.place);
+      formData.append("link", editStopInput.link);
+    }
+  
     const reqHeaders = {
       Authorization: `Token ${token}`,
       "Content-Type": "multipart/form-data",
     };
-
+  
     const response = await editStopApi(stopId, formData, reqHeaders);
     console.log(stopId);
     console.log(response, "edit stop");
