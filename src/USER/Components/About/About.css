@@ -1,0 +1,22 @@
+.about{
+    text-align: justify;
+}
+.abtImg{
+    height: 400px;
+}
+.feat{
+    text-align: justify;
+}
+.FImg{
+    height: 50px;
+   
+}
+.text{
+    text-align: justify;
+}
+.aboutHead{
+    background: linear-gradient(45deg, #FF4B2B, #FF416C);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent !important;
+}

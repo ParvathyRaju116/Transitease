@@ -1,0 +1,19 @@
+
+.list-table{
+    background-image:linear-gradient(to right, #ff4b2b47, #ff416d4c) !important;
+    border-radius: 20px;
+}
+.table-transparent {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  
+  .table-transparent th,
+  .table-transparent td {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .more{
+    background: linear-gradient(45deg, #FF4B2B, #FF416C);
+    border:none;
+  }

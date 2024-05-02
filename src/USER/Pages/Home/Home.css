@@ -1,0 +1,21 @@
+.head{
+    font-size: 70px !important ;
+    font-weight:350 ;
+    line-height: 1em;
+    text-align:left;
+
+
+}
+.para{
+    font-size: 20px;
+    line-height: 1em;
+    text-align:left;
+}
+.home{
+    height: 80vh;
+    background-image:linear-gradient(to right, #FF4B2B, #FF416C) !important;
+    
+}
+.busImg{
+    height: 500px;  
+}

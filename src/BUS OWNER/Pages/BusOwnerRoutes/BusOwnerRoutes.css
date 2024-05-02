@@ -1,0 +1,104 @@
+.add-route-body,.routeList{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.div1{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.addDiv{
+  border: #FF4B2B 2px solid;
+
+}
+.add-route-head,.all-route-head,.add-stop-head{
+    background: linear-gradient(45deg, #FF4B2B, #FF416C);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/* AddRoute.css */
+
+.table-custom {
+  background: linear-gradient(45deg, #FF4B2B, #FF416C);
+  /* color: white;  */
+}
+
+.table-custom th {
+  font-weight: bold;
+}
+
+.table-custom tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.1); /* Optional: Add alternate row background */
+}
+
+.AddBtn {
+  background: linear-gradient(45deg, #FF4B2B, #FF416C);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.addIcon{
+  background: linear-gradient(45deg, #FF4B2B, #FF416C);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.route-list-table{
+  background-image:linear-gradient(to right, #ff4b2b47, #ff416d4c) !important;
+  border-radius: 20px;
+  height:300px;
+  overflow-y: auto;
+  overflow-x: auto;
+  max-width: 80vw;
+}
+.route-list-table::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+}
+
+.route-list-table::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.route-list-table::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #ff4b2b47, #ff416d4c);
+  border-radius: 10px;
+}
+
+.route-list-table::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right, #ff416d4c, #ff4b2b47);
+}
+
+.table-transparent {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.table-transparent th,
+.table-transparent td {
+  background-color: transparent;
+  border-color: transparent;
+}
+.main-grid {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+}
+.route-grid{
+  display: grid;
+  grid-template-columns:1fr max-content;
+  width:100%;
+}
+.not-aproved{
+  background-image:linear-gradient(to right, #ff4b2b47, #ff416d4c) !important;
+  border-radius: 20px;
+  /* height:100px; */
+  overflow-y: auto;
+  overflow-x: auto;
+  max-width: 50vw;
+}

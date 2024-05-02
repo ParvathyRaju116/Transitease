@@ -1,0 +1,12 @@
+.footerHead{
+    background: linear-gradient(45deg, #FF4B2B, #FF416C);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent !important;
+}
+.footer-body{
+    background-image:linear-gradient(to right, #ff4b2b2b, #ff416d3e) !important;
+}
+.logo{
+    color: #FF4B2B;
+}

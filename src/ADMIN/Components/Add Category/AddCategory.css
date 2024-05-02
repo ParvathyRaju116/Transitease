@@ -1,0 +1,47 @@
+.pie{
+    height: 180px;     
+  }
+  .category-body{
+    justify-content: center;
+    align-items: center;
+     height: 230px;
+     width: 100%;
+     background-color: rgb(255, 255, 255);
+     border-left: 10px solid;
+     border-image: linear-gradient(to bottom, #ff4b2b, #ff416d) 1;
+     border-radius: 0px 20px 20px 0px !important;
+    }
+.categories{
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.categories::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+}
+
+.categories::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.categories::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #ff4b2b00, #ff416d00);
+  border-radius: 10px;
+}
+
+.categories::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right, #ff416d00, #ff4b2b00);
+}
+
+
+  .ctgry-add-btn{
+    background: linear-gradient(45deg, #FF4B2B, #FF416C);
+    border: none;
+    color: white;
+    padding: 2px ;
+    
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

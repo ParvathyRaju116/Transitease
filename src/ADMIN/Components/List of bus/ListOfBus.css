@@ -1,0 +1,76 @@
+.list-table {
+  background-image: linear-gradient(to right, #ff4b2b47, #ff416d4c) !important;
+  border-radius: 10px;
+  height: 56vh !important ;
+  overflow-y: scroll;
+}
+
+.list-table::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+}
+
+.list-table::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.list-table::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #ff4b2b47, #ff416d4c);
+  border-radius: 10px;
+}
+
+.list-table::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right, #ff416d4c, #ff4b2b47);
+}
+
+.table-transparent {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  
+  .table-transparent th,
+  .table-transparent td {
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  
+  .OnebusImg{
+     height: 300px;
+  }
+ 
+  .busHead{
+    background: linear-gradient(45deg, #FF4B2B, #FF416C);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .modalBody{
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.modalBody {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.modalBody::-webkit-scrollbar {
+  width: 12px;
+  background: transparent;
+}
+
+.modalBody::-webkit-scrollbar-track {
+background: transparent;
+}
+
+.modalBody::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #ff4b2b47, #ff416d4c);
+  border-radius: 10px;
+}
+.modalBody::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right, #ff416d4c, #ff4b2b47);
+}
+
+

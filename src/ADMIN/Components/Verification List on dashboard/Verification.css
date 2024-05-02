@@ -1,0 +1,26 @@
+
+.Btn {
+    background-image: linear-gradient(to bottom, #ff4b2b, #ff416d);
+    border: 0;
+  }
+  .listBody{
+    overflow-y: scroll;
+    height: 400px;
+  }
+  .listBody::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+  }
+  
+  .listBody::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .listBody::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #ff4b2b47, #ff416d4c);
+    border-radius: 10px;
+  }
+  
+  .listBody::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to right, #ff416d4c, #ff4b2b47);
+  }

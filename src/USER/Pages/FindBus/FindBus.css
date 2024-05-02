@@ -1,0 +1,22 @@
+.findbusBody {
+    justify-content: center;
+    display: flex;
+}
+
+.input {
+    text-align: center;
+}
+.seachBtn{
+    background: linear-gradient(45deg, #FF4B2B, #FF416C);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10%;
+}
+.catDiv{
+    border: 1px solid #FF4B2B;
+    width: 7% !important;
+    border-radius: 5% !important;
+    height: 40px;
+}

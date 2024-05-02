@@ -1,0 +1,15 @@
+.assignedRoutesBody{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.assigneRouteHead{
+    background: linear-gradient(45deg, #FF4B2B, #FF416C);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent !important;
+}
+.divWithGradientBorder {
+    border-bottom: 4px solid;
+    border-image: linear-gradient(45deg, #FF4B2B, #FF416C) 1;
+  }

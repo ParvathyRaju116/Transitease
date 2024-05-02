@@ -1,0 +1,41 @@
+.list-table-bus{
+    background-image:linear-gradient(to right, #ff4b2b47, #ff416d4c) !important;
+    border-radius: 20px;
+    height:350px;
+    overflow-y: auto;
+    overflow-x: auto;
+    max-width: 60vw;
+}
+
+.list-table-bus::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+}
+
+.list-table-bus::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.list-table-bus::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #ff4b2b47, #ff416d4c);
+  border-radius: 10px;
+}
+
+.list-table-bus::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right, #ff416d4c, #ff4b2b47);
+}
+
+.table-transparent {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  
+  .table-transparent th,
+  .table-transparent td {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .btn-bg{
+    background: linear-gradient(45deg, #FF4B2B, #FF416C);
+    border:none;
+  }

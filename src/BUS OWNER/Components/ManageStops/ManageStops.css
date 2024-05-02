@@ -1,0 +1,14 @@
+.btn-red {
+    background: linear-gradient(45deg, #FF4B2B, #FF416C);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .hover{
+    cursor: pointer;
+  }
+  .hover:hover{
+    background-color: rgba(0, 0, 0, 0.049);
+  }
