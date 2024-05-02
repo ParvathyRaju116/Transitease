@@ -174,7 +174,7 @@ function AddStop({ id }) {
       getRouteAndStop();
     } else {
       Swal.fire({
-        icon: "error",
+        icon: "error..!",
         text: "Something went wrong!",
         timer: 1200,
       });
