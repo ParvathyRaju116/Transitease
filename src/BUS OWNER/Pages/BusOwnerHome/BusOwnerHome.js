@@ -72,7 +72,7 @@ function BusOwnerHome() {
                     </div>
                   </Link>
                 </Col>
-              </Row>
+              </Row>  
 
               <BusOwnerBuses />
             </div>
