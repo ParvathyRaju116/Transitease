@@ -81,7 +81,7 @@ function ManageStops({ id }) {
                 icon: "warning",
                 title: "Please select stops",
                 showConfirmButton: false,
-                timer: 1500
+                timer: 1500,
             });
         } else {
             try {
